@@ -38,6 +38,7 @@ const userSchema = new mongoose.Schema({
             delete ret.password;
             delete ret.__v;
         }
+    }
 });
 
 userSchema.pre('save', async function (done) {
