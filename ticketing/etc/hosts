@@ -1,0 +1,10 @@
+##
+127.0.0.1 localhosts
+255.255.255.255 broadcasthost
+::1             localhost
+
+# added by docker Desktop
+# to allow the same kube context to work on the host and the containor
+127.0.0.1 kubernetes.docker.internal
+
+127.0.0.1 ticketing.dev
